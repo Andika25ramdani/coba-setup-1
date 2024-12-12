@@ -1,5 +1,7 @@
 // import dark theme
-@use "element-plus/theme-chalk/src/dark/css-vars.scss" as *;
+@use "element-plus-dark.scss"; // For change on dark
+@use "element-plus/theme-chalk/src/dark/css-vars.scss" as *; // Call dark changes update
+@use "element-plus/theme-chalk/src/index.scss" as *; // Call Element plus style
 
 @use "tailwind.scss";
 @use "components/variables";
