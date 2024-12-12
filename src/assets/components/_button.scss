@@ -29,6 +29,6 @@ button {
 }
 
 .rounded-button {
-    @include primary-button-bg;
+    // @include primary-button-bg;
     @apply rounded-full;
 }

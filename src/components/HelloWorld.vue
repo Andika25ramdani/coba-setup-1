@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-
 defineProps<{ msg: string }>()
 
 const count = ref(0)
@@ -11,7 +9,7 @@ const dateModel = ref()
   <h1 class="bg-red-500">{{ msg }}</h1>
 
   <div class="card">
-    <el-button>El-Button</el-button>
+    <el-button type="primary">El-Button</el-button>
     <el-date-picker v-model="dateModel" type="daterange" />
     <button type="button" @click="count++" class="rounded-button">count is {{ count }}</button>
     <p>
