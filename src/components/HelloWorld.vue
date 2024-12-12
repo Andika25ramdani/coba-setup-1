@@ -4,6 +4,7 @@ import { ref } from 'vue'
 defineProps<{ msg: string }>()
 
 const count = ref(0)
+const dateModel = ref()
 </script>
 
 <template>
@@ -11,6 +12,7 @@ const count = ref(0)
 
   <div class="card">
     <el-button>El-Button</el-button>
+    <el-date-picker v-model="dateModel" type="daterange" />
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>
       Edit
