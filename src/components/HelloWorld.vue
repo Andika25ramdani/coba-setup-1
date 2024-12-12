@@ -8,7 +8,7 @@ const dateModel = ref()
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1 class="bg-red-500">{{ msg }}</h1>
 
   <div class="card">
     <el-button>El-Button</el-button>
