@@ -25,10 +25,10 @@ button {
 }
 
 @mixin primary-button-bg {
-    @apply bg-blue-400 hover:bg-blue-950;
+  @apply bg-blue-400 hover:bg-blue-950;
 }
 
 .rounded-button {
-    // @include primary-button-bg;
-    @apply rounded-full;
+  @include primary-button-bg;
+  @apply rounded-full;
 }

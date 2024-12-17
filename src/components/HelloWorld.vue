@@ -11,7 +11,7 @@ const dateModel = ref()
   <div class="card">
     <el-button type="primary">El-Button</el-button>
     <el-date-picker v-model="dateModel" type="daterange" />
-    <button type="button" @click="count++" class="rounded-button">count is {{ count }}</button>
+    <button type="button" @click="count++" class="outlined-button">count is {{ count }}</button>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR

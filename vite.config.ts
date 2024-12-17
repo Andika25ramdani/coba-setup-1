@@ -33,6 +33,7 @@ export default defineConfig({
     alias: {
       "~": fileURLToPath(new URL("./src", import.meta.url)),
       "~assets": fileURLToPath(new URL("./src/assets", import.meta.url)),
+      "~component": fileURLToPath(new URL("./src/components", import.meta.url)),
     },
   },
 })
