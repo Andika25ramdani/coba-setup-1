@@ -12,7 +12,7 @@ export default defineConfig({
     preprocessorOptions: {
       scss: {
         silenceDeprecations: ["import"],
-        additionalData: `@use "~assets/element-plus.scss" as *;`,
+        additionalData: "@use \"~assets/element-plus.scss\" as *;",
       },
     },
   },
